@@ -26,7 +26,7 @@ Below is a size comparison with the Voron V0.
 
 **Bowden Extruder and Side-Mounted Cooling** — By using a Bowden setup and placing four 4020 part-cooling fans on either side of the print chamber, the toolhead remains extremely light.
 
-**Sheet-Metal Chassis* — Stainless-Steel Sheet-Metal Construction — Compared with aluminum extrusion frames used in printers like the Voron V0, sheet metal provides comparable rigidity with a much thinner profile, enabling the SM-100's compact size. It also offers better fire resistance than printed enclosure parts.
+**Sheet-Metal Chassis** — Stainless-Steel Sheet-Metal Construction — Compared with aluminum extrusion frames used in printers like the Voron V0, sheet metal provides comparable rigidity with a much thinner profile, enabling the SM-100's compact size. It also offers better fire resistance than printed enclosure parts.
 
 **USB PD Power Delivery** — By running entirely on 100W USB-PD, the machine eliminates the bulky internal power supply, further reducing the overall footprint.
 
