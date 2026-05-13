@@ -12,11 +12,12 @@ An open-frame printer also raised two concerns for my living situation: it could
 
 SM-100 was designed to solve these issues. Drawing from my experience building compact 3D printers like the [Fraxinus 00w2](https://fraxinus.jp/en/docs/micro-printers/#fraxinus00w2), [Fraxinus 00cw](https://fraxinus.jp/en/docs/community/#fraxinus00cw), [Fraxinus 00tcw](https://x.com/c_bata_/status/1891012343326261727), and [Voron 0.2](https://github.com/voronDesign/Voron-0), I focused on three design priorities:
 
-1. **Ultra-compact footprint**: Achieved by using a Bowden extruder, side-mounted part cooling, and external USB-PD power to eliminate the need for an internal PSU.
-2. **Thermal Management**: Excessive stepper motor heat can reduce torque and shorten motor life. Placing the A/B/Z motors and electronics in a dedicated bottom compartment allows them to be cooled by front intake fans.
+1. **Compact Footprint**: My use of 3D printers goes through phases. Some months I print often, while in others I barely use one at all. When life gets busy, a printer can sit unused for weeks, and if it takes up too much space, it becomes harder to justify keeping around. For me, compactness is essential to owning a 3D printer long term.
+2. **Thermal Management**: Excessive heat in stepper motors can reduce torque and shorten motor life. On my Voron 0.2, which used LDO NEMA 14 steppers, I occasionally ran into skipped steps before adding active cooling. Adding a dedicated fan to each motor would have meant too many fans, so on the SM-100 I placed the A/B/Z motors and electronics in a dedicated lower compartment, where they can all be cooled by the front intake fans.
 3. **Fire Safety**: For a machine intended for home use, fire safety is a critical consideration. Using stainless-steel sheet metal for the main structure helps reduce fire risk compared with printed parts, while still providing excellent rigidity.
 
-Below is a size comparison with the Voron V0.
+So far, the SM-100 is my favorite custom 3D printer I have built. As the comparison with the Voron 0.2 below shows, it is fairly compact while still offering practical print quality for everyday use.
+It lacks some of the advanced features found in modern commercial printers, such as multi-color printing, but its small number of parts and simple toolhead make maintenance and repairs straightforward. That simplicity is a big part of why I think it is a machine I can keep using for years.
 
 ![SM-100 vs Voron V0](./images/sm-100-vs-voron-v0.jpg)
 
@@ -27,6 +28,10 @@ Below is a size comparison with the Voron V0.
 **Bowden Extruder and Side-Mounted Cooling** — By using a Bowden setup and placing four 4020 part-cooling fans on either side of the print chamber, the toolhead remains extremely light.
 
 **Sheet-Metal Chassis** — Stainless-Steel Sheet-Metal Construction — Compared with aluminum extrusion frames used in printers like the Voron V0, sheet metal provides comparable rigidity with a much thinner profile, enabling the SM-100's compact size. It also offers better fire resistance than printed enclosure parts.
+
+**MGN9C Linear Rails** - The cost of linear rails varies by length, but the 100 mm and 150 mm rails used on the SM-100 are still relatively affordable on AliExpress. Even inexpensive rails tend to have less play than low-cost linear shaft-and-bearing setups. While the Voron 0.2 uses MGN7H rails, I chose MGN9C for the SM-100 because M2 screws are easier to loosen, and in my experience MGN7H rails are more likely to have noticeable play. I have also heard that this tends to get worse with wear over time.
+
+**Support for NEMA14 and NEMA17 Stepper Motors** - I originally planned to use NEMA 14 stepper motors to keep the machine as compact as possible, but I decided to support NEMA 17 as well because they are much easier to source. The motors on my own SM-100 actually came from a cheap donor printer I disassembled. Unless you are aiming for very high print speeds, affordable NEMA 17 motors work just fine.
 
 **USB PD Power Delivery** — By running entirely on 100W USB-PD, the machine eliminates the bulky internal power supply, further reducing the overall footprint.
 
@@ -50,10 +55,6 @@ Depending on community interest, I plan to provide:
 - Complete assembly CAD files
 - A full Bill of Materials (BOM)
 - Detailed assembly instructions
-
-## Current Status
-
-SM-100 is currently a prototype and should be treated as experimental hardware. This repository serves as a design documentation release rather than a complete, ready-to-build consumer guide.
 
 ## Acknowledgements
 
