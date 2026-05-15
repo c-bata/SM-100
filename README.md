@@ -1,6 +1,6 @@
 ![Header by ChatGPT](./images/header.jpg)
 
-[日本語はこちら](./README_ja.md)
+English | [日本語](./README_ja.md) | [简体中文](./README_zh.md) | [한국어](./README_ko.md)
 
 SM-100 is a compact CoreXY 3D printer featuring a 120x70x70 mm build volume within a 200x180x280 mm footprint.
 Designed for compact, practical use in small apartments, it utilizes a stainless-steel sheet-metal chassis and runs entirely on 100W USB-PD power.

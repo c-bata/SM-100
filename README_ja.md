@@ -1,5 +1,7 @@
 ![Header by ChatGPT](./images/header.jpg)
 
+[English](./README.md) | 日本語 | [简体中文](./README_zh.md) | [한국어](./README_ko.md)
+
 SM-100は、USB PD 100Wで動作するオープンソースの小型3Dプリンターです。
 
 ## 背景
