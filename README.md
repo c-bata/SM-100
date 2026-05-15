@@ -1,5 +1,7 @@
 ![Header by ChatGPT](./images/header.jpg)
 
+[日本語はこちら](./README_ja.md)
+
 SM-100 is a compact CoreXY 3D printer featuring a 120x70x70 mm build volume within a 200x180x280 mm footprint.
 Designed for compact, practical use in small apartments, it utilizes a stainless-steel sheet-metal chassis and runs entirely on 100W USB-PD power.
 
@@ -23,7 +25,7 @@ It lacks some of the advanced features found in modern commercial printers, such
 
 ## Design Highlights
 
-**Lower-Mounted Motion System** — Unlike traditional CoreXY designs, the A/B motors are located in the bottom compartment, driving the gantry via 5mm stainless-steel shafts. This lowers the center of gravity and allows the front intake fans to cool the motors, and electronics simultaneously without requiring extra airflow in the upper chamber.
+**Lower-Mounted Motion System** — Unlike traditional CoreXY designs, the A/B motors are located in the bottom compartment, driving the gantry via 5mm stainless-steel shafts. This lowers the center of gravity and allows the front intake fans to cool the motors and electronics simultaneously.
 
 **Bowden Extruder and Side-Mounted Cooling** — By using a Bowden setup and placing four 4020 part-cooling fans on either side of the print chamber, the toolhead remains extremely light.
 
